@@ -1,0 +1,291 @@
+2024-12-16 20:47:58.792 | INFO     | __main__:run:108 - Starting faucet claim process with 5 threads
+2024-12-16 20:47:58.812 | INFO     | __main__:process_account:94 - Generated address: 0xF57AB9554b62A519E9Dcf7299d71E690f128b453
+2024-12-16 20:47:58.816 | INFO     | __main__:process_account:94 - Generated address: 0xcb1777FeD02C5C77dDD2fc316365EBC88332331c
+2024-12-16 20:47:58.822 | INFO     | __main__:process_account:94 - Generated address: 0x74DD4b45411cF201c33E651B375cbf46Ba0D67ab
+2024-12-16 20:47:58.826 | INFO     | __main__:process_account:94 - Generated address: 0xC4c4F325924E1738Fd9d09d747cE0516386bBE0A
+2024-12-16 20:47:58.826 | INFO     | __main__:process_account:94 - Generated address: 0x5201EE09a24E656fCDFbb62b093ab5E43b82B735
+2024-12-16 20:48:02.526 | ERROR    | __main__:get_captcha:46 - Error getting captcha: 'NoneType' object has no attribute 'get'
+2024-12-16 20:48:14.194 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:14.194 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:14.950 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:17.297 | ERROR    | __main__:get_captcha:46 - Error getting captcha: 'NoneType' object has no attribute 'get'
+2024-12-16 20:48:21.525 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:22.914 | ERROR    | __main__:claim:86 - Claim attempt 1 failed: Failed to perform, curl: (56) CONNECT tunnel failed, response 502. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2024-12-16 20:48:30.089 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:48:30.089 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x5201EE09a24E656fCDFbb62b093ab5E43b82B735
+2024-12-16 20:48:30.097 | INFO     | __main__:process_account:94 - Generated address: 0x2A78231e6B13849f5a19B223B01Ff43E54e44b9A
+2024-12-16 20:48:31.809 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:48:31.809 | SUCCESS  | __main__:claim:82 - Claim successful for address 0xF57AB9554b62A519E9Dcf7299d71E690f128b453
+2024-12-16 20:48:31.813 | INFO     | __main__:process_account:94 - Generated address: 0x5eF8EA15CA7732f485eA5A6ada5eB70191C67E67
+2024-12-16 20:48:35.252 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:41.393 | INFO     | __main__:claim:79 - Claim attempt 2: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:48:41.393 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x74DD4b45411cF201c33E651B375cbf46Ba0D67ab
+2024-12-16 20:48:41.396 | INFO     | __main__:process_account:94 - Generated address: 0x7763703eb45Ea1925846905F265e66109859E1dd
+2024-12-16 20:48:43.158 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:44.202 | ERROR    | __main__:claim:86 - Claim attempt 1 failed: Failed to perform, curl: (28) Operation timed out after 30004 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2024-12-16 20:48:46.925 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:51.376 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:48:51.377 | SUCCESS  | __main__:claim:82 - Claim successful for address 0xcb1777FeD02C5C77dDD2fc316365EBC88332331c
+2024-12-16 20:48:51.381 | INFO     | __main__:process_account:94 - Generated address: 0x59e94Ff54A382ECf867ac12391536297838fD224
+2024-12-16 20:48:56.360 | INFO     | __main__:claim:79 - Claim attempt 2: {"error":"You can claim only once in 24 hours from the faucet. Please try again later."}
+2024-12-16 20:48:58.655 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:48:59.409 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:48:59.409 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x2A78231e6B13849f5a19B223B01Ff43E54e44b9A
+2024-12-16 20:48:59.413 | INFO     | __main__:process_account:94 - Generated address: 0x84baDC85DDF75E06F69525039B0a06A0401E5ca7
+2024-12-16 20:49:03.393 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:49:03.394 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x5eF8EA15CA7732f485eA5A6ada5eB70191C67E67
+2024-12-16 20:49:05.743 | INFO     | __main__:claim:79 - Claim attempt 3: {"error":"You can claim only once in 24 hours from the faucet. Please try again later."}
+2024-12-16 20:49:09.083 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:49:12.301 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:49:16.642 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:49:16.642 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x7763703eb45Ea1925846905F265e66109859E1dd
+2024-12-16 20:49:26.659 | INFO     | __main__:claim:79 - Claim attempt 1: An error occurred with your deployment
+
+FUNCTION_INVOCATION_TIMEOUT
+
+2024-12-16 20:49:29.259 | INFO     | __main__:claim:79 - Claim attempt 1: An error occurred with your deployment
+
+FUNCTION_INVOCATION_TIMEOUT
+
+2024-12-16 20:51:49.367 | INFO     | __main__:run:110 - Starting faucet claim process with 10 threads
+2024-12-16 20:51:49.378 | INFO     | __main__:process_account:94 - Generated address: 0xE60125afF33dBd4AF456b34FE3BD8406098c1089
+2024-12-16 20:51:49.381 | INFO     | __main__:process_account:94 - Generated address: 0x989bbFAb92a0D51a11eBeb9dA72eeD9D10034F05
+2024-12-16 20:51:49.387 | INFO     | __main__:process_account:94 - Generated address: 0x52E023cDEdad039F5bEC3b212aEF2fF2cDd1b41d
+2024-12-16 20:51:49.387 | INFO     | __main__:process_account:94 - Generated address: 0xD2f41011971648b2F1D4A6E9f752DD64eBcc1343
+2024-12-16 20:51:49.392 | INFO     | __main__:process_account:94 - Generated address: 0x364e01308E6890a98520da0724De99EDDA117A28
+2024-12-16 20:51:49.395 | INFO     | __main__:process_account:94 - Generated address: 0x89A7B1546D929FE8f5c13c4bcF9A5f024909a936
+2024-12-16 20:51:49.398 | INFO     | __main__:process_account:94 - Generated address: 0x2d07650D2d5529a58fe111A2Fa66f1a25bCa7f01
+2024-12-16 20:51:49.402 | INFO     | __main__:process_account:94 - Generated address: 0x9bCc0d50f51d1C65E2069C7FDD4B5A764535c4d0
+2024-12-16 20:51:49.405 | INFO     | __main__:process_account:94 - Generated address: 0xDe40Cf8ba9F6B7699b93F8E0168719bF57f75B90
+2024-12-16 20:51:49.408 | INFO     | __main__:process_account:94 - Generated address: 0x85DDd60536b35142FB1c2b055cC8c99746Ea612B
+2024-12-16 20:52:03.165 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:03.553 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:03.654 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:03.835 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:04.243 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:04.432 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:04.478 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:04.955 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:06.033 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:07.089 | ERROR    | __main__:get_captcha:46 - Error getting captcha: 'NoneType' object has no attribute 'get'
+2024-12-16 20:52:11.662 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:11.662 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x9bCc0d50f51d1C65E2069C7FDD4B5A764535c4d0
+2024-12-16 20:52:11.664 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0x9bCc0d50f51d1C65E2069C7FDD4B5A764535c4d0
+2024-12-16 20:52:12.028 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:12.028 | SUCCESS  | __main__:claim:82 - Claim successful for address 0xE60125afF33dBd4AF456b34FE3BD8406098c1089
+2024-12-16 20:52:12.029 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0xE60125afF33dBd4AF456b34FE3BD8406098c1089
+2024-12-16 20:52:12.963 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:12.964 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x2d07650D2d5529a58fe111A2Fa66f1a25bCa7f01
+2024-12-16 20:52:12.965 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0x2d07650D2d5529a58fe111A2Fa66f1a25bCa7f01
+2024-12-16 20:52:13.123 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:13.123 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x52E023cDEdad039F5bEC3b212aEF2fF2cDd1b41d
+2024-12-16 20:52:13.124 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0x52E023cDEdad039F5bEC3b212aEF2fF2cDd1b41d
+2024-12-16 20:52:13.764 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:13.765 | SUCCESS  | __main__:claim:82 - Claim successful for address 0xDe40Cf8ba9F6B7699b93F8E0168719bF57f75B90
+2024-12-16 20:52:13.769 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0xDe40Cf8ba9F6B7699b93F8E0168719bF57f75B90
+2024-12-16 20:52:14.452 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:14.452 | SUCCESS  | __main__:claim:82 - Claim successful for address 0xD2f41011971648b2F1D4A6E9f752DD64eBcc1343
+2024-12-16 20:52:14.454 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0xD2f41011971648b2F1D4A6E9f752DD64eBcc1343
+2024-12-16 20:52:14.895 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:14.895 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x989bbFAb92a0D51a11eBeb9dA72eeD9D10034F05
+2024-12-16 20:52:14.895 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0x989bbFAb92a0D51a11eBeb9dA72eeD9D10034F05
+2024-12-16 20:52:15.433 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:15.433 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x364e01308E6890a98520da0724De99EDDA117A28
+2024-12-16 20:52:15.433 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0x364e01308E6890a98520da0724De99EDDA117A28
+2024-12-16 20:52:24.038 | INFO     | __main__:get_captcha:42 - Successfully obtained captcha
+2024-12-16 20:52:32.619 | INFO     | __main__:claim:79 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 20:52:32.619 | SUCCESS  | __main__:claim:82 - Claim successful for address 0x89A7B1546D929FE8f5c13c4bcF9A5f024909a936
+2024-12-16 20:52:32.621 | SUCCESS  | __main__:process_account:102 - Saved successful claim to file: 0x89A7B1546D929FE8f5c13c4bcF9A5f024909a936
+2024-12-16 20:52:33.567 | ERROR    | __main__:claim:86 - Claim attempt 1 failed: Failed to perform, curl: (28) Connection timed out after 30005 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2024-12-16 21:02:43.324 | INFO     | __main__:run:121 - Starting faucet claim process with 5 threads
+2024-12-16 21:02:43.334 | INFO     | __main__:process_account:105 - Generated address: 0xd025e56231A3f5e81653e83f91203f117445b5B0
+2024-12-16 21:02:43.338 | INFO     | __main__:process_account:105 - Generated address: 0xD0316EF40d57d5f24eA5bE36B30A2426cc05fe43
+2024-12-16 21:02:43.341 | INFO     | __main__:process_account:105 - Generated address: 0xe0Ab7C8CCd336998aDc32CE2EDf30760d4b8002b
+2024-12-16 21:02:43.345 | INFO     | __main__:process_account:105 - Generated address: 0x5A6941Abd8FD81ed4275984871F82Ccb2930d2e7
+2024-12-16 21:02:43.347 | INFO     | __main__:process_account:105 - Generated address: 0x5CBb9c38A3EA555AFC862E55763E45342C1f6237
+2024-12-16 21:02:58.240 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:02:59.278 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:02:59.993 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:00.312 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:01.041 | ERROR    | __main__:get_captcha:58 - Error getting captcha: 'NoneType' object has no attribute 'get'
+2024-12-16 21:03:01.826 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:01.826 | SUCCESS  | __main__:claim:93 - Claim successful for address 0xd025e56231A3f5e81653e83f91203f117445b5B0
+2024-12-16 21:03:01.829 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0xd025e56231A3f5e81653e83f91203f117445b5B0
+2024-12-16 21:03:01.835 | INFO     | __main__:process_account:105 - Generated address: 0xF5660FF987338E5860BFf89D5ef7593d6620ddDA
+2024-12-16 21:03:02.023 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:02.023 | SUCCESS  | __main__:claim:93 - Claim successful for address 0x5CBb9c38A3EA555AFC862E55763E45342C1f6237
+2024-12-16 21:03:02.023 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0x5CBb9c38A3EA555AFC862E55763E45342C1f6237
+2024-12-16 21:03:02.027 | INFO     | __main__:process_account:105 - Generated address: 0x273a86AD41faf2eFfd154cBc622335D5Be2F2004
+2024-12-16 21:03:03.062 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:03.062 | SUCCESS  | __main__:claim:93 - Claim successful for address 0xe0Ab7C8CCd336998aDc32CE2EDf30760d4b8002b
+2024-12-16 21:03:03.062 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0xe0Ab7C8CCd336998aDc32CE2EDf30760d4b8002b
+2024-12-16 21:03:03.065 | INFO     | __main__:process_account:105 - Generated address: 0xaacE20D7d4A6C25846ee6aAE8bAa6c59C4ddcC65
+2024-12-16 21:03:03.148 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:03.148 | SUCCESS  | __main__:claim:93 - Claim successful for address 0x5A6941Abd8FD81ed4275984871F82Ccb2930d2e7
+2024-12-16 21:03:03.148 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0x5A6941Abd8FD81ed4275984871F82Ccb2930d2e7
+2024-12-16 21:03:03.151 | INFO     | __main__:process_account:105 - Generated address: 0x4eD37E64C2AfA929e1A47944EfC93127B4712082
+2024-12-16 21:03:15.952 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:16.030 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:17.066 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:17.282 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:18.691 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:18.691 | SUCCESS  | __main__:claim:93 - Claim successful for address 0xD0316EF40d57d5f24eA5bE36B30A2426cc05fe43
+2024-12-16 21:03:18.692 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0xD0316EF40d57d5f24eA5bE36B30A2426cc05fe43
+2024-12-16 21:03:18.697 | INFO     | __main__:process_account:105 - Generated address: 0xB4D91b4c2675283FAa660D41F0D627740fF19713
+2024-12-16 21:03:18.765 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:18.765 | SUCCESS  | __main__:claim:93 - Claim successful for address 0x273a86AD41faf2eFfd154cBc622335D5Be2F2004
+2024-12-16 21:03:18.777 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0x273a86AD41faf2eFfd154cBc622335D5Be2F2004
+2024-12-16 21:03:18.959 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:19.697 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:19.697 | SUCCESS  | __main__:claim:93 - Claim successful for address 0x4eD37E64C2AfA929e1A47944EfC93127B4712082
+2024-12-16 21:03:19.698 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0x4eD37E64C2AfA929e1A47944EfC93127B4712082
+2024-12-16 21:03:20.662 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:20.662 | SUCCESS  | __main__:claim:93 - Claim successful for address 0xF5660FF987338E5860BFf89D5ef7593d6620ddDA
+2024-12-16 21:03:20.663 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0xF5660FF987338E5860BFf89D5ef7593d6620ddDA
+2024-12-16 21:03:23.766 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:23.767 | SUCCESS  | __main__:claim:93 - Claim successful for address 0xaacE20D7d4A6C25846ee6aAE8bAa6c59C4ddcC65
+2024-12-16 21:03:23.768 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0xaacE20D7d4A6C25846ee6aAE8bAa6c59C4ddcC65
+2024-12-16 21:03:31.457 | INFO     | __main__:get_captcha:54 - Successfully obtained captcha
+2024-12-16 21:03:35.604 | INFO     | __main__:claim:90 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:03:35.605 | SUCCESS  | __main__:claim:93 - Claim successful for address 0xB4D91b4c2675283FAa660D41F0D627740fF19713
+2024-12-16 21:03:35.606 | SUCCESS  | __main__:process_account:113 - Saved successful claim to file: 0xB4D91b4c2675283FAa660D41F0D627740fF19713
+2024-12-16 21:11:45.351 | WARNING  | __main__:<module>:172 - 感谢选择 nocaptcha, 我们只做别人做不到的(手动狗头)~
+2024-12-16 21:11:45.352 | WARNING  | __main__:<module>:173 - 欢迎推荐注册, 官网地址: https://www.nocaptcha.io/register?c=hLf08E
+2024-12-16 21:11:45.352 | WARNING  | __main__:<module>:174 - 代码配套代理ip(一定要外网环境下使用): https://app.nstproxy.com/register?i=r0wYrb
+2024-12-16 21:11:45.352 | INFO     | __main__:run:154 - Starting faucet claim process with 5 threads
+2024-12-16 21:11:45.360 | INFO     | __main__:process_account:133 - Generated address: 0x03663b1549EEA09141A9afeAf83a33fCa3526442
+2024-12-16 21:11:45.364 | INFO     | __main__:process_account:133 - Generated address: 0x24AbbB0e0DD115FC2a95B7281d862ec989ef3149
+2024-12-16 21:11:45.366 | INFO     | __main__:process_account:133 - Generated address: 0xA854C20D2EE2959df54708F795a79B8C789920dF
+2024-12-16 21:11:45.369 | INFO     | __main__:process_account:133 - Generated address: 0xDfeD4a37d791B1E48f3F563FEB921a65904BE61b
+2024-12-16 21:11:45.371 | INFO     | __main__:process_account:133 - Generated address: 0xBF098c980999b9Df4Fd265854168D5A8344e0Bb1
+2024-12-16 21:12:00.873 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:04.068 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:04.106 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:04.142 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:04.765 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:05.986 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:05.987 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x24AbbB0e0DD115FC2a95B7281d862ec989ef3149
+2024-12-16 21:12:05.995 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x24AbbB0e0DD115FC2a95B7281d862ec989ef3149
+2024-12-16 21:12:06.003 | INFO     | __main__:process_account:133 - Generated address: 0x4739567291bEd6Ba1092bd16AD15Bb913A1a2F60
+2024-12-16 21:12:07.199 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:07.200 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xBF098c980999b9Df4Fd265854168D5A8344e0Bb1
+2024-12-16 21:12:07.200 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xBF098c980999b9Df4Fd265854168D5A8344e0Bb1
+2024-12-16 21:12:07.206 | INFO     | __main__:process_account:133 - Generated address: 0x5903AeE032ACF971539d02A7F567e1A8cEf19661
+2024-12-16 21:12:07.260 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:07.261 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xDfeD4a37d791B1E48f3F563FEB921a65904BE61b
+2024-12-16 21:12:07.261 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xDfeD4a37d791B1E48f3F563FEB921a65904BE61b
+2024-12-16 21:12:07.267 | INFO     | __main__:process_account:133 - Generated address: 0x3e40DB4A5d43c58D501C111b97020c8824e6668b
+2024-12-16 21:12:07.370 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:07.372 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x03663b1549EEA09141A9afeAf83a33fCa3526442
+2024-12-16 21:12:07.373 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x03663b1549EEA09141A9afeAf83a33fCa3526442
+2024-12-16 21:12:07.385 | INFO     | __main__:process_account:133 - Generated address: 0xD8bbBb2B2455B1B6Aa2a318B374d108DA8591B14
+2024-12-16 21:12:08.552 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:08.553 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xA854C20D2EE2959df54708F795a79B8C789920dF
+2024-12-16 21:12:08.554 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xA854C20D2EE2959df54708F795a79B8C789920dF
+2024-12-16 21:12:08.568 | INFO     | __main__:process_account:133 - Generated address: 0x3A5Ca7E82FC76Cdd37DD03D7313e6695f944a25c
+2024-12-16 21:12:21.408 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:21.982 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:23.048 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:24.249 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:24.249 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x5903AeE032ACF971539d02A7F567e1A8cEf19661
+2024-12-16 21:12:24.249 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x5903AeE032ACF971539d02A7F567e1A8cEf19661
+2024-12-16 21:12:24.547 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:24.681 | INFO     | __main__:get_captcha:72 - Successfully obtained captcha
+2024-12-16 21:12:25.103 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:25.103 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x3A5Ca7E82FC76Cdd37DD03D7313e6695f944a25c
+2024-12-16 21:12:25.104 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x3A5Ca7E82FC76Cdd37DD03D7313e6695f944a25c
+2024-12-16 21:12:25.961 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:25.961 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x4739567291bEd6Ba1092bd16AD15Bb913A1a2F60
+2024-12-16 21:12:25.961 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x4739567291bEd6Ba1092bd16AD15Bb913A1a2F60
+2024-12-16 21:12:28.080 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:28.080 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xD8bbBb2B2455B1B6Aa2a318B374d108DA8591B14
+2024-12-16 21:12:28.084 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xD8bbBb2B2455B1B6Aa2a318B374d108DA8591B14
+2024-12-16 21:12:28.121 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:12:28.122 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x3e40DB4A5d43c58D501C111b97020c8824e6668b
+2024-12-16 21:12:28.123 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x3e40DB4A5d43c58D501C111b97020c8824e6668b
+2024-12-16 21:17:31.707 | WARNING  | __main__:<module>:169 - 感谢选择 nocaptcha, 我们只做别人做不到的(手动狗头)~
+2024-12-16 21:17:31.708 | WARNING  | __main__:<module>:170 - 欢迎推荐注册, 官网地址: https://www.nocaptcha.io/register?c=hLf08E
+2024-12-16 21:17:31.708 | WARNING  | __main__:<module>:171 - 代码配套代理ip(无需在外网环境就可以使用): https://app.nstproxy.com/register?i=r0wYrb
+2024-12-16 21:17:31.709 | INFO     | __main__:run:154 - Starting faucet claim process with 5 threads
+2024-12-16 21:17:31.713 | INFO     | __main__:process_account:133 - Generated address: 0x98715173519CD9b7843945fAA441CfCb1757e56b
+2024-12-16 21:17:31.715 | INFO     | __main__:process_account:133 - Generated address: 0x500943d244dCA881cE7B56C00105CadEcE311922
+2024-12-16 21:17:31.717 | INFO     | __main__:process_account:133 - Generated address: 0xdbEeA3C9fa92d43EC3606DcCc0322c8f4bCA2F6b
+2024-12-16 21:17:31.718 | INFO     | __main__:process_account:133 - Generated address: 0xB18e3E113A847E8E89A393D3936203f0D2b1f47B
+2024-12-16 21:17:31.720 | INFO     | __main__:process_account:133 - Generated address: 0xCBB8917F4A1A7e85652baeAf6C496Da30d149588
+2024-12-16 21:17:33.853 | ERROR    | __main__:get_captcha:76 - Error getting captcha: 'NoneType' object has no attribute 'get'
+2024-12-16 21:17:45.061 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:17:46.769 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:17:47.512 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:17:47.533 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:17:49.094 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:17:49.095 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xCBB8917F4A1A7e85652baeAf6C496Da30d149588
+2024-12-16 21:17:49.095 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xCBB8917F4A1A7e85652baeAf6C496Da30d149588
+2024-12-16 21:17:49.099 | INFO     | __main__:process_account:133 - Generated address: 0x85582010d5Fb53fe62AEb56eb950CF7599c23B52
+2024-12-16 21:17:49.124 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:17:52.360 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:17:52.361 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x500943d244dCA881cE7B56C00105CadEcE311922
+2024-12-16 21:17:52.362 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x500943d244dCA881cE7B56C00105CadEcE311922
+2024-12-16 21:17:52.367 | INFO     | __main__:process_account:133 - Generated address: 0x9819fFe8be25a50229802E83E2Fa71267Bf8ee32
+2024-12-16 21:17:52.430 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:17:52.430 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xB18e3E113A847E8E89A393D3936203f0D2b1f47B
+2024-12-16 21:17:52.431 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xB18e3E113A847E8E89A393D3936203f0D2b1f47B
+2024-12-16 21:17:52.435 | INFO     | __main__:process_account:133 - Generated address: 0x9B597fab8117C4F90e9b76cB4D20C0469B6aa5B3
+2024-12-16 21:17:52.481 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:17:52.482 | SUCCESS  | __main__:claim:117 - Claim successful for address 0xdbEeA3C9fa92d43EC3606DcCc0322c8f4bCA2F6b
+2024-12-16 21:17:52.483 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0xdbEeA3C9fa92d43EC3606DcCc0322c8f4bCA2F6b
+2024-12-16 21:17:52.487 | INFO     | __main__:process_account:133 - Generated address: 0x2E345637eC4dbc0BFdf1546F7c043fe1a65bEd08
+2024-12-16 21:17:53.839 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:17:53.839 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x98715173519CD9b7843945fAA441CfCb1757e56b
+2024-12-16 21:17:53.840 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x98715173519CD9b7843945fAA441CfCb1757e56b
+2024-12-16 21:17:53.844 | INFO     | __main__:process_account:133 - Generated address: 0x86b25f178d5CdB85136C814c15c5289df8634949
+2024-12-16 21:18:02.762 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:18:06.284 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:18:07.118 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:18:07.543 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:18:07.834 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:18:07.834 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x85582010d5Fb53fe62AEb56eb950CF7599c23B52
+2024-12-16 21:18:07.834 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x85582010d5Fb53fe62AEb56eb950CF7599c23B52
+2024-12-16 21:18:10.445 | INFO     | __main__:get_captcha:72 - Successfully cracked captcha
+2024-12-16 21:18:11.537 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:18:11.537 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x9819fFe8be25a50229802E83E2Fa71267Bf8ee32
+2024-12-16 21:18:11.537 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x9819fFe8be25a50229802E83E2Fa71267Bf8ee32
+2024-12-16 21:18:13.314 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:18:13.315 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x86b25f178d5CdB85136C814c15c5289df8634949
+2024-12-16 21:18:13.315 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x86b25f178d5CdB85136C814c15c5289df8634949
+2024-12-16 21:18:13.471 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:18:13.472 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x9B597fab8117C4F90e9b76cB4D20C0469B6aa5B3
+2024-12-16 21:18:13.472 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x9B597fab8117C4F90e9b76cB4D20C0469B6aa5B3
+2024-12-16 21:18:16.223 | INFO     | __main__:claim:114 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:18:16.223 | SUCCESS  | __main__:claim:117 - Claim successful for address 0x2E345637eC4dbc0BFdf1546F7c043fe1a65bEd08
+2024-12-16 21:18:16.224 | SUCCESS  | __main__:process_account:141 - Saved successful claim to file: 0x2E345637eC4dbc0BFdf1546F7c043fe1a65bEd08
+2024-12-16 21:18:16.225 | INFO     | __main__:run:164 - Completed claiming process. Successful claims: 10/10
+2024-12-16 21:26:54.556 | WARNING  | __main__:<module>:170 - 感谢选择 nocaptcha, 我们只做别人做不到的(手动狗头)~
+2024-12-16 21:26:54.556 | WARNING  | __main__:<module>:171 - 欢迎推荐注册, 官网地址: https://www.nocaptcha.io/register?c=hLf08E
+2024-12-16 21:26:54.556 | WARNING  | __main__:<module>:172 - 代码配套代理ip(无需在外网环境就可以使用): https://app.nstproxy.com/register?i=r0wYrb
+2024-12-16 21:26:54.557 | INFO     | __main__:run:155 - Starting faucet claim process with 5 threads
+2024-12-16 21:26:54.561 | INFO     | __main__:process_account:134 - Generated address: 0xe60FEA0Fc235BfF91837b8FA40347DdbE1514Fe7
+2024-12-16 21:26:54.563 | INFO     | __main__:process_account:134 - Generated address: 0xe41D97609C54c8A423B4B9E1218992C936e763d6
+2024-12-16 21:26:54.565 | INFO     | __main__:process_account:134 - Generated address: 0x6eFdcBaC70A56Ff21769C53739C438Ec22e6442f
+2024-12-16 21:26:54.566 | INFO     | __main__:process_account:134 - Generated address: 0x7789956E24D4eB4b3e1f823C0F0Cb100351333a5
+2024-12-16 21:26:54.568 | INFO     | __main__:process_account:134 - Generated address: 0x8b2998Ac39BF482333bf720f4E2eAdc910dFB62a
+2024-12-16 21:27:07.916 | INFO     | __main__:get_captcha:73 - Successfully cracked captcha
+2024-12-16 21:27:13.322 | INFO     | __main__:claim:115 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:27:13.322 | SUCCESS  | __main__:claim:118 - Claim successful for address 0x6eFdcBaC70A56Ff21769C53739C438Ec22e6442f
+2024-12-16 21:27:13.323 | SUCCESS  | __main__:process_account:142 - Saved successful claim to file: 0x6eFdcBaC70A56Ff21769C53739C438Ec22e6442f
+2024-12-16 21:27:13.331 | INFO     | __main__:process_account:134 - Generated address: 0x2e1d71EfFaf55Ce132468f34c2f8B2f8f83eceA4
+2024-12-16 21:27:15.917 | INFO     | __main__:get_captcha:73 - Successfully cracked captcha
+2024-12-16 21:27:16.473 | INFO     | __main__:get_captcha:73 - Successfully cracked captcha
+2024-12-16 21:27:16.474 | INFO     | __main__:get_captcha:73 - Successfully cracked captcha
+2024-12-16 21:27:16.541 | INFO     | __main__:get_captcha:73 - Successfully cracked captcha
+2024-12-16 21:27:19.402 | INFO     | __main__:claim:115 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:27:19.402 | SUCCESS  | __main__:claim:118 - Claim successful for address 0xe60FEA0Fc235BfF91837b8FA40347DdbE1514Fe7
+2024-12-16 21:27:19.402 | SUCCESS  | __main__:process_account:142 - Saved successful claim to file: 0xe60FEA0Fc235BfF91837b8FA40347DdbE1514Fe7
+2024-12-16 21:27:19.405 | INFO     | __main__:process_account:134 - Generated address: 0xe45dA93e416A33beb797bDa632942C812A61a349
+2024-12-16 21:27:21.142 | INFO     | __main__:claim:115 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:27:21.143 | SUCCESS  | __main__:claim:118 - Claim successful for address 0x8b2998Ac39BF482333bf720f4E2eAdc910dFB62a
+2024-12-16 21:27:21.143 | SUCCESS  | __main__:process_account:142 - Saved successful claim to file: 0x8b2998Ac39BF482333bf720f4E2eAdc910dFB62a
+2024-12-16 21:27:21.147 | INFO     | __main__:process_account:134 - Generated address: 0xF8817f2c2affeE6D7dB20625d11613AF07322ce1
+2024-12-16 21:27:21.572 | INFO     | __main__:claim:115 - Claim attempt 1: {"message":"Your request is processing. You should receive your funds within 5 minutes.","status":"pending"}
+2024-12-16 21:27:21.573 | SUCCESS  | __main__:claim:118 - Claim successful for address 0x7789956E24D4eB4b3e1f823C0F0Cb100351333a5
+2024-12-16 21:27:21.573 | SUCCESS  | __main__:process_account:142 - Saved successful claim to file: 0x7789956E24D4eB4b3e1f823C0F0Cb100351333a5
+2024-12-16 21:27:21.574 | INFO     | __main__:process_account:134 - Generated address: 0x72211Ba317387426FA99E8A068ef4a36262b8216
